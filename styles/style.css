@@ -38,18 +38,20 @@
     gap: 30px;
     font-size: 18px;
     font-family: Raleway;
+    list-style: circle;
     
    
 
  }
  .header__links-list-item_no-bullit {
     list-style: none;
+    text-decoration: none;
  }
  .header__link_active {
 
  }
- .header__link {
-    
+ .header__links-list-item {
+    white-space: nowrap;
  }
 .header__logo {
     grid-area: logo;
@@ -101,8 +103,11 @@
 .overlay {
     position: absolute;
     inset: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
+    z-index: 0;
 
 }
 .aligned-text {
@@ -138,28 +143,31 @@
     color: white;
     text-transform: uppercase;
     font-family: "Raleway";
-    font-weight: 700px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 22px;
     letter-spacing: 0.2em;
+    font-weight: 637px;
+    line-height: 28px;
+    z-index: 4;
+    position: relative;
 }
 .cover__descriptoin-text {
     font-family: Raleway;
-    font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-
+    margin-bottom: 62px;
 }
 .bet-bottom { 
     display: flex;
     align-items: center;
+    width: 256px;
+    height: 51px;
     justify-content: space-around;
     color: white;
     text-transform: uppercase;
     font-family: "Raleway";
-    font-weight: 700px;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: 0.2em;
     background-color: transparent;
+    z-index: 4;
 }
