@@ -35,9 +35,6 @@
     list-style: none;
     text-decoration: none;
  }
- .header__link_active {
-
- }
  .header__links-list-item {
     white-space: nowrap;
  }
@@ -70,7 +67,7 @@
     z-index: 1;
     margin-bottom: 179px;
 }
-.cover__title{
+.cover__title {
     padding: 165px 50px;
     display: block;
     font-family: "Raleway";
@@ -87,23 +84,21 @@
     width: 100%;
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
-
 }
 .aligned-text {
     display: block;
     letter-spacing: 0.4em;
     line-height: 115px;
     position: relative;
-
 }
-.aligned-text__center{
+.aligned-text__center {
     display: block;
     text-align: center;
     line-height: 120px;
     letter-spacing: 0.3em;
     position: relative;
 }
-.aligned-text__right{
+.aligned-text__right {
     display: block;
     text-align: end;
     justify-self: end;
@@ -272,11 +267,10 @@
     justify-content: center;
     justify-self: center; 
 }
-.about__logo-image{
+.about__logo-image {
     background-size: cover;
     width: 148px;
     height: 114px;
-
 }
 .about__title {
     align-self: center;
