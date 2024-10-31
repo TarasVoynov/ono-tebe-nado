@@ -130,7 +130,7 @@
     font-family: "Raleway";
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    margin-bottom: 62px;
+    margin-bottom: 162px;
 }
 .bet-bottom {
     display: flex;
@@ -312,8 +312,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .footer__link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Raleway";
     font-weight: 400;
     font-size: 18px;
