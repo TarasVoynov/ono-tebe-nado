@@ -208,7 +208,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-}.card_type_book {
+}
+.card_type_book {
     background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-position: center;
@@ -258,7 +259,6 @@
     column-gap: 25px;
     margin: 146px 24px 180px 24px;
     padding-top: 35px;
-    background-color: red;
 }
 .about__logo {
     width: 240px;
@@ -276,6 +276,7 @@
     background-size: cover;
     width: 148px;
     height: 114px;
+
 }
 .about__title {
     align-self: center;
@@ -284,6 +285,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 46.96px;
+    
 }
 .about__text {
     padding-top: 5px;
@@ -293,4 +295,55 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+}
+.footer {
+    width: 1000px;
+    height: 98px;
+    margin: 180px 50px 88px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__adress {
+    width: 240.52px;
+    height: 98px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+
+}
+.footer__menu {
+    width: 149px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__link-list {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    list-style: none;
+
+
+}
+.footer__link-list_no_bullit {
+    list-style: none;
+    text-decoration: none;
+}
+.footer__social-list {
+    width: 240px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: end;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.social__link-list-item {
+    width: 48px;
+    height: 48px;
 }
