@@ -132,7 +132,7 @@
     letter-spacing: 0.3em;
     margin-bottom: 62px;
 }
-.bet-bottom { 
+.bet-bottom {
     display: flex;
     align-items: center;
     width: 256px;
@@ -241,7 +241,7 @@
     display: block;
     margin-left: 40px;
 }
-.lots__look-more-link{
+.lots__look-more-link {
     font-family: "Raleway";
     font-size: 20px;
     font-weight: 400;
@@ -265,7 +265,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-self: center; 
+    justify-self: center;
 }
 .about__logo-image {
     background-size: cover;
