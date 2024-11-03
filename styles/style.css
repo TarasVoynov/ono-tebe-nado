@@ -97,14 +97,14 @@
 }
 .aligned-text {
     display: block;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.25em;
     line-height: 115px;
     position: relative;
 }
 .aligned-text__center {
     display: block;
     text-align: center;
-    line-height: 120px;
+    line-height: 100px;
     letter-spacing: 0.3em;
     position: relative;
 }
@@ -112,6 +112,7 @@
     display: flex;
     align-items: end;
     text-align: end;
+    line-height: 100px;
     justify-content: end;
     letter-spacing: 0.3em;
     position: relative;
