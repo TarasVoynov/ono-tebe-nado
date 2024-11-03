@@ -97,7 +97,7 @@
 }
 .aligned-text {
     display: block;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.2em;
     line-height: 115px;
     position: relative;
 }
@@ -127,20 +127,22 @@
 }
 .cover__description {
     margin-top: 147px;
+    margin-left: 78px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-transform: uppercase;
-    font-size: 22px;
     letter-spacing: 0.1em;
     color: white;
     z-index: 4;
     position: relative;
-}
-.cover__descriptoin-text {
-    font-family: "Raleway" sans-serif;
     font-weight: 400;
     line-height: 28px;
+    font-size: 22px;
+}
+.cover__descriptoin-text {
+    width: 637px;
+    font-family: "Raleway" sans-serif;
 }
 .bet-button {
     display: flex;
