@@ -106,6 +106,7 @@
     justify-content: center;
     text-align: center;
     font-size: 100px;
+    line-height: 120px;
     letter-spacing: 0.3em;
     position: relative;
 }
@@ -132,15 +133,16 @@
     margin-left: 78px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     color: white;
     z-index: 4;
     position: relative;
     font-weight: 400;
     line-height: 28px;
     font-size: 22px;
+    gap: 79px;
 }
 .cover__descriptoin-text {
     width: 637px;
