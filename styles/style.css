@@ -82,7 +82,7 @@
     display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    line-height: 115px;
+    line-height: 100px;
     color: rgb(255, 255, 255);
     font-size: 100px;
     text-transform: uppercase;
@@ -97,7 +97,7 @@
 }
 .aligned-text {
     display: block;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.2em;
     line-height: 115px;
     position: relative;
 }
@@ -129,7 +129,7 @@
     letter-spacing: 0;
 }
 .cover__description {
-    margin: 120px 0px 51px 78px;
+    margin: 130px 0px 51px 78px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -141,7 +141,7 @@
     font-weight: 400;
     line-height: 28px;
     font-size: 22px;
-    gap: 85px;
+    gap: 80px;
 }
 .cover__descriptoin-text {
     width: 637px;
